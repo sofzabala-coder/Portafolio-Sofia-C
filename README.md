@@ -1,1 +1,3 @@
 # Portafolio-Sofia-C
+16/04 
+Avancé en la estructura del proyecto creando el template en HTML de la página, organizando secciones como el hero, la descripción, el proceso y la galería. Fui agregando contenido básico para darle forma al caso de estudio y conecté enlaces de navegación de las imagenes para que la experiencia sea más fluida dentro del sitio. En general, trabajé en dejar la base funcional y ordenada de la web para luego seguir puliendo el diseño y los detalles visuales también en CSS hice algunos ajustes específicos como la tipografía, en las márgenes y padding y el estilo de los botones que adicione para que la página se vea más limpia y ordenada.
