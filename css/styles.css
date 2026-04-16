@@ -291,6 +291,226 @@ textarea {
 }
 footer { padding: 40px; border-top: 1px solid #333; text-align: center; }
 
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F5DC;
+  color: #115e58;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #F5F5DC;
+}
+
+header h2 {
+  font-weight: bold;
+  color: #115e58;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #115e58;
+}
+
+nav button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+nav button:hover {
+  transform: scale(1.05);
+}
+
+/* HERO */
+.project-hero {
+  background: #d7fcf0;
+  padding: 80px 80px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-hero::before {
+  content: "✦";
+  position: absolute;
+  font-size: 300px;
+  color: rgba(17, 94, 88, 0.06);
+  top: -60px;
+  right: -30px;
+}
+
+.project-tag {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 6px 14px;
+  margin-bottom: 20px;
+}
+
+.project-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.project-hero h1 span {
+  color: #1582e8;
+}
+
+.project-meta {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+/* COVER */
+.project-cover {
+  padding: 0 80px;
+}
+
+.project-cover img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* OVERVIEW */
+.project-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 80px;
+}
+
+.project-overview h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-overview p {
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* PROCESO */
+.project-process {
+  background: #1d1d1d;
+  padding: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.step-number {
+  font-size: 4rem;
+  color: #1582e8;
+  opacity: 0.3;
+}
+
+/* TOOLS */
+.project-tools {
+  background: #fff;
+  padding: 80px;
+  text-align: center;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tool-tag {
+  border: 2px solid #115e58;
+  padding: 10px 22px;
+  border-radius: 100px;
+}
+
+/* GALERÍA */
+.project-gallery {
+  padding: 80px;
+  background: #d7fcf0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* CTA */
+.project-cta {
+  padding: 100px;
+  text-align: center;
+}
+
+.btn-dark {
+  background: #111;
+  color: #fff;
+  padding: 14px 32px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 2px solid #111;
+  padding: 14px 32px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 40px;
+  text-align: center;
+}
+
 
 @media (max-width: 768px) {
   body {
