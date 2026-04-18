@@ -1,118 +1,196 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SZ Studio - Sofia Zabala</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | SZ Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/about.css"/>
 </head>
 <body>
 
-    <header>
-        <h2>SZ Studio</h2>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><button>Contacto</button></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <p>3D Animator • Character Designer • Visual Storyteller</p>
-                <h1>Crafting emotion through <span>form, movement and light.</span></h1>
-                <p>Soy Creadora Digital especializada en animación y creación 3D, enfocada en el desarrollo de personajes con identidad, intención narrativa y profundidad emocional. Mi proceso creativo parte del concepto y evoluciona a través del diseño, modelado, iluminación y animación, buscando siempre coherencia estética y fuerza visual.</p>
-                <div class="hero-btns">
-                    <button>Contrátame</button>
-                    <button>Ver trabajos</button>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="ux-bg">3D</div>
-            </div>
-        </section>
-</section>
+  <header>
+    <h2>SZ Studio</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html#about">Sobre mí</a></li>
+        <li><a href="index.html#services">Servicios</a></li>
+        <li><a href="index.html#portfolio">Portafolio</a></li>
+        <li><button onclick="document.getElementById('about-contact').scrollIntoView({behavior:'smooth'})">Contacto</button></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section id="about">
-    <h2>Sobre mí</h2>
-    <p>
-      Mi formación en programación y dirección creativa me permite abordar cada proyecto desde una perspectiva estructurada y estratégica. Analizo composición, ritmo visual, color, atmósfera y narrativa para asegurar que cada pieza tenga intención clara y ejecución profesional.
+  <main>
 
-Me interesa formar parte de estudios donde la técnica esté al servicio de la emoción y donde la animación sea un medio para contar historias memorables. Mi enfoque combina disciplina técnica, pensamiento visual y una búsqueda constante por elevar cada detalle del proceso creativo.
-    </p>
-
-    <div>
-      <div>
-        <h3>55+</h3>
-        <p>Proyectos</p>
+   // HERO ABOUT//
+    <section class="about-hero">
+      <div class="about-hero-img">
+        <img src="https://ibb.co/0jMKv1FR" alt="Sofia Zabala" />
       </div>
-      <div>
-        <h3>3+</h3>
-        <p>Años</p>
+      <div class="about-hero-text">
+        <span class="about-tag">UX Designer · 3D Animator · Creative Director</span>
+        <h1>Crafting emotion through <span>form, movement and light.</span></h1>
+        <p>
+          Soy Creadora Digital especializada en animación y creación 3D, enfocada
+          en el desarrollo de personajes con identidad, intención narrativa y
+          profundidad emocional. Mi proceso parte del concepto y evoluciona a
+          través del diseño, modelado, iluminación y animación.
+        </p>
+        <div class="about-hero-btns">
+          <a href="#" class="btn-dark" download>Descargar CV</a>
+          <button class="btn-outline" onclick="document.getElementById('about-contact').scrollIntoView({behavior:'smooth'})">Contrátame</button>
+        </div>
       </div>
-      <div>
-        <h3>30+</h3>
-        <p>Clientes</p>
+    </section>
+
+   
+    <div class="about-philosophy">
+
+      <div class="philosophy-left">
+        <h2>Mi filosofía</h2>
+        <blockquote>
+          "Creo que el gran diseño no se trata solo de cómo se ve, sino de cómo
+          funciona y cómo hace sentir. Mi enfoque combina disciplina técnica,
+          pensamiento visual y una búsqueda constante por elevar cada detalle
+          del proceso creativo."
+        </blockquote>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>55+</h3>
+            <p>Proyectos</p>
+          </div>
+          <div class="stat-item">
+            <h3>3+</h3>
+            <p>Años de experiencia</p>
+          </div>
+          <div class="stat-item">
+            <h3>30+</h3>
+            <p>Clientes</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Compromiso</p>
+          </div>
+        </div>
       </div>
+
+      <div class="philosophy-right">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+          <li>
+            <div class="skill-header"><span>Maya</span><span>100%</span></div>
+            <div class="skill-bar"><div style="--w:100%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>Figma</span><span>95%</span></div>
+            <div class="skill-bar"><div style="--w:95%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>Photoshop</span><span>95%</span></div>
+            <div class="skill-bar"><div style="--w:95%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>Dirección creativa</span><span>90%</span></div>
+            <div class="skill-bar"><div style="--w:90%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>Storytelling</span><span>90%</span></div>
+            <div class="skill-bar"><div style="--w:90%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>Fotografía</span><span>85%</span></div>
+            <div class="skill-bar"><div style="--w:85%"></div></div>
+          </li>
+          <li>
+            <div class="skill-header"><span>After Effects</span><span>80%</span></div>
+            <div class="skill-bar"><div style="--w:80%"></div></div>
+          </li>
+        </ul>
+      </div>
+
     </div>
-  </section>
 
-  <section id="services">
-    <h2>Servicios</h2>
-    <p>
-      Explora mis servicios creativos a partir de las especialidades que desarrollo en diseño visual, animación 3D y storytelling.
-    </p>
+    
+    <section class="about-services">
+      <h2>Servicios</h2>
+      <p>Las especialidades que pongo al servicio de tu proyecto, desde la idea hasta la ejecución final.</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-icon">🧊</span>
+          <h3>3D Modeling</h3>
+          <p>Diseño y modelado de personajes, props y escenarios 3D con estilo cinematográfico y detallado.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">🎬</span>
+          <h3>3D Character Animation</h3>
+          <p>Animaciones expresivas que dan vida a personajes y transmiten emoción e historia.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">🎯</span>
+          <h3>Creative Direction</h3>
+          <p>Desarrollo de conceptos visuales, estética y narrativa para proyectos digitales y animados.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">✨</span>
+          <h3>Motion Graphics</h3>
+          <p>Animaciones dinámicas y modernas para contenido digital, branding y piezas audiovisuales.</p>
+        </div>
+      </div>
+    </section>
 
-    <div>
-      <div>
-        <h3>3D Modeling</h3>
-        <p>Diseño y modelado de personajes, props y escenarios 3D con estilo cinematográfico y detallado.</p>
+    //CONTACTO//
+    <section class="about-contact" id="about-contact">
+      <div class="about-contact-left">
+        <h2>¿Lista para construir algo <span>extraordinario</span> juntos?</h2>
+        <ul class="contact-details">
+          <li>📞 <strong>605 415 8006</strong></li>
+          <li>✉ <strong>sz@studio.com</strong></li>
+          <li>📍 Bogotá, Colombia</li>
+        </ul>
+        <div class="social-row">
+          <a href="#" title="Instagram">Ig</a>
+          <a href="#" title="Twitter">Tw</a>
+          <a href="#" title="LinkedIn">Li</a>
+          <a href="#" title="Behance">Be</a>
+        </div>
       </div>
-      <div>
-        <h3>3D Character Animation</h3>
-        <p>Creación de animaciones expresivas y fluidas que dan vida a personajes y transmiten emoción e historia.</p>
+      <div class="about-contact-right">
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Email" />
+        <input type="tel" placeholder="Teléfono (opcional)" />
+        <textarea rows="5" placeholder="Tu mensaje"></textarea>
+        <button type="button">Enviar mensaje</button>
       </div>
-      <div>
-        <h3>Creative Direction
-</h3>
-        <p>Desarrollo de conceptos visuales, estética y narrativa para proyectos digitales y animados.</p>
-      </div>
-      <div>
-        <h3>Motion Graphics</h3>
-        <p>Animaciones dinámicas y modernas para contenido digital, branding y piezas audiovisuales creativas.</p>
-      </div>
-    </div>
-  </section>
-  <section class="contact">
-    <div class="contact-info">
-      <h2>Contactame!</h2>
-      <p>Listos para construir algo extraordinario juntos!</p>
-      <p> 605 415 8006
-      </p>
-      <p>✉ sz@studio.com</p>
-    </div>
-    <form class="contact-form">
-      <input type="text" placeholder="Nombre">
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Tu mensaje"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-</main>
+    </section>
 
-<footer>
-  <div class="footer-logo">SZ Studio</div>
-  <div class="social-icons">
-    <span>Instagram</span> | <span>Twitter</span> | <span>LinkedIn</span>
-  </div>
-</footer>
-        </main>
+  </main>
+
+  
+  <footer>
+    <div class="footer-logo">SZ Studio</div>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Servicios</a>
+      <a href="index.html#portfolio">Portafolio</a>
+    </nav>
+    <p> 2026 Sofia Zabala — Diseñado &amp; desarrollado con 💚</p>
+  </footer>
+
+  <script>
+    const bars = document.querySelectorAll('.skill-bar');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    bars.forEach(bar => observer.observe(bar));
+  </script>
 
 </body>
 </html>
