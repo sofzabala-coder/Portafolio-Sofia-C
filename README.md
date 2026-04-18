@@ -83,9 +83,9 @@ Portafolio-Sofia-C/
 | Google Fonts | Tipografía Montserrat |
 | Git & GitHub | Control de versiones y despliegue |
 | Figma | Referencia de diseño y prototipado |
-| Codepen | Donde tenia mis codigos iniciales | link: about: https://codepen.io/SOFIA-ALEJANDRA-CUBILLOS-ZABALA/pen/emdNEPq 
-home: https://codepen.io/SOFIA-ALEJANDRA-CUBILLOS-ZABALA/pen/gbMJJZG
-template:
+| Codepen | Donde tenia mis codigos iniciales | link: https://codepen.io/SOFIA-ALEJANDRA-CUBILLOS-ZABALA/pen/emdNEPq 
+https://codepen.io/SOFIA-ALEJANDRA-CUBILLOS-ZABALA/pen/gbMJJZG
+
 
 
 
