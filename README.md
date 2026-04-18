@@ -1,4 +1,4 @@
-README # 🎨 SZ Studio — Portafolio Personal
+**SZ Studio** — Portafolio Personal
 **Sofia Alejandra Cubillos Zabala**  
 Lenguajes Digitales III · 2026
 
@@ -17,9 +17,9 @@ Portafolio-Sofia-C/
 │   └── portafolio.css   → Estilos exclusivos de portafolio.html
 
 
-## 📋 Bitácora de desarrollo
+**Bitácora de desarrollo**
 
-### ✅ Estructura base
+ **Estructura base**
 - Creación del repositorio  en GitHub
 - Definición de la paleta de colores del sitio:
   - Verde oscuro: `#115e58`
@@ -98,7 +98,7 @@ Portafolio-Sofia-C/
 
 ---
 
-## 📱 Responsive
+##  Responsive
 
 El sitio es adaptable a pantallas desde 360px. Los breakpoints principales son:
 
