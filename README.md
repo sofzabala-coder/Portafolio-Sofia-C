@@ -103,3 +103,4 @@ El sitio es adaptable a pantallas desde 360px. Los breakpoints principales son:
 - `max-width: 560px` → servicios en 1 columna, stats en 2 columnas
 
 -- Este es el proyecto de portafolio 2026:)
+posdata: No me quizo servir el link (la vinculación de css) no pude saber por que. Intente bastante:(
