@@ -36,10 +36,8 @@ Portafolio-Sofia-C/
 - Mejora en la maquetación del **header** con navegación y botón de contacto con scroll suave
 - La **sección hero**: layout flex con foto de perfil, texto de presentación, subtítulo animado y dos botones de acción
 - Sección **About** con fondo oscuro y estadísticas 
-- Sección **Servicios** con 4 cards en flex con hover effect 
 - Sección **Skills** con barras de progreso usando CSS
 - Sección **Portafolio** con grid de 3 columnas que enlaza al template de proyecto
-- Sección **Testimonios** 
 - Sección **Contacto** con layout flex oscuro: info a la izquierda, formulario a la derecha
 - Footer con logo, links de navegación y redes sociales
 
@@ -47,7 +45,6 @@ Portafolio-Sofia-C/
 ### ✅ 18-04 — Separación de estilos
 - Corrección del `styles.css` original:
   - Se añadió el selector de reset `*, *::before, *::after`
-  - Se eliminaron variables CSS sin definir que me rompían el formulario de contacto
   - Se reemplazaron selectores frágiles 
   - Se añadieron clases reutilizables
   - Se agregó bloque `@media` responsive 
@@ -61,9 +58,7 @@ Portafolio-Sofia-C/
 - Sección de **Filosofía** con cita en blockquote y barra lateral decorativa
 - Grid de **estadísticas** 2×2 debajo de la cita
 - Sección **Technical Skills** con barras de progreso animadas
-- Grid de **servicios** con 4 cards y efecto hover con `border-bottom` 
 - Sección de **Contacto** en grid 2 columnas: datos + redes sociales a la izquierda, formulario a la derecha
-- Diseño completamente **responsive**: en móvil la foto y el texto se apilan verticalmente, los grids pasan a 1 columna
 
 ---
 
